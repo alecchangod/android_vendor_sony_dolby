@@ -1,0 +1,33 @@
+
+# Dolby
+persist.sony.effect.dolby_atmos=true
+ro.audio.monitorRotation=true
+ro.audio.monitorWindowRotation=true
+ro.odm.build.SomcCntrl.manufacture=Sony
+ro.odm.build.SomcCntrl.Brand=Sony
+ro.odm.build.SomcCntrl.Model=Pdx203
+ro.odm.build.SomcCntrl.device=pdx203
+#ro.product.manufacturer=Sony
+ro.dolby.mod_uuid=false
+vendor.audio.dolby.ds2.enabled=false
+vendor.audio.dolby.ds2.hardbypass=false
+ro.audio.ignore_effects=false
+ro.semc.product.model=I4113
+ro.semc.ms_type_id=PM-1181-BV
+ro.semc.version.fs=GENERIC
+ro.semc.product.name="Xperia 10"
+ro.semc.product.device=I41
+audio.sony.effect.use.proxy=true
+vendor.audio.sony.effect.use.proxy=true
+ro.somc.dseehx.supported=true
+persist.sony.effect.ahc=true
+persist.sony.mono_speaker=false
+persist.sony.enable.dolby_auto_mode=true
+persist.sony.effect.clear_audio_plus=true
+vendor.audio.use.sw.alac.decoder=true
+
+# Using Sound Enhancement post process type soundfx instead of global type soundfx
+ro.sony.global.effect=false
+
+# prevent bootloop
+ro.control_privapp_permissions=log

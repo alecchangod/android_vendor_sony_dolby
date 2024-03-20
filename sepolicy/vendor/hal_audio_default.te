@@ -1,0 +1,4 @@
+
+allow hal_audio_default hal_dms_hwservice:hwservice_manager find;
+
+hal_client_domain(hal_audio_default, hal_dms)
