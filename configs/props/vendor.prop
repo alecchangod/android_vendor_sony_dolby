@@ -30,4 +30,4 @@ vendor.audio.use.sw.alac.decoder=true
 ro.sony.global.effect=false
 
 # prevent bootloop
-ro.control_privapp_permissions=log
+#ro.control_privapp_permissions=log
